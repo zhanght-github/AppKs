@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.geoway.appks.fragment.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="0dp"
+            android:textColor="#ff2f86fa"
+            android:text="请输入房间号："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/set_roomid"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:text="0"/>
+    </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center_horizontal"
+            android:dropDownVerticalOffset="40dp" />
+
+    <TextView
+        android:id="@+id/tv_setstate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_blue_bg_normal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:paddingTop="5dp"
+        android:text="修改"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+
+</FrameLayout>
